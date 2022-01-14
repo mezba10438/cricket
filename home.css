@@ -1,0 +1,41 @@
+nav ul li a{
+    text-decoration: none;
+    color: purple;
+    font-size: large;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 8px;
+    
+    
+    
+    
+}
+nav li:hover{
+    background-color:rosybrown;
+    border-radius: 3px;
+    
+}
+nav > ul{
+    display: flex;
+}
+
+nav ul li ul{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    background-color: lightblue;
+    color: lightseagreen;
+    font-weight: 700;
+    border-radius: 5%;
+    margin: 0;
+    padding: 0;
+}
+ 
